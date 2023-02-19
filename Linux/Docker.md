@@ -124,7 +124,13 @@ bash  进入容器后执行的命令
 1.docker search sqli-labs   搜索镜像
 2.docker pull acgpiano/sqli-labs    下载镜像
 3.docker images  查看镜像
-4.docker run -dt  --name sqlib -p 80:80 -rm acgpiano/sqli-labs   启动并创建sqlib容器 
+4.docker run -dt  --name sqlib -p 88:80 -p 1026:3306 --rm acgpiano/sqli-labs   启动并创建sqlib容器 
+映射了两个端口，一个是Apache(httpd)服务的  一个是mysql服务的   1026是宿主机端口
 5.docker container ls  查看已经启动的容器列表
+
+-dt  让其在后台运行
+--rm  当其关闭后将删除开启的资源  就是关闭时删除创建的容器  yi'ci
+docker ps -a      显示容器的id image命令  端口等信息
+docker exec -it  容器名称/容器ID /bin/bash   
 ```
 

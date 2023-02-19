@@ -42,6 +42,19 @@ git branch
 ```
 
 ```
-git status  查看
+git status  查看状态
+git diff  本地分支名  origin/远程分支名
+关联远程分支与本地分支
+git branch --set-upstream-to=origin/<远程分支名> <本地分支名>
+// 例如： git branch --set-upstream-to=origin/fix_xiaoming fix_xiaoming
+```
+
+```
+git log：查看所有提交过的版本信息。（按 q 或 ctrl + z 均可退出）
+git log --pretty=oneline：查看 完整 hash 版本号 和 commit 信息。
+git log --graph --pretty=oneline --abbrev-commit：查看 简短 hash 版本号 和 commit 信息。
+git reflog：查看所有分支的所有操作记录（包括已经被删除的 commit 记录和 reset 的操作），内容由 hash 版本号、HEAD 记号 和 commit 信息 组成。（按 q 或 ctrl + z 均可退出）
+
+
 ```
 
