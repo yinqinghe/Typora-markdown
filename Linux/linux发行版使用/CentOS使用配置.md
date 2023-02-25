@@ -13,5 +13,7 @@ DNS1=192.168.52.2
 保存文本后  执行命令  重启网络
 systemctl restart network
 
+手动修改  /etc/resolv.conf
+nameserver 
 ```
 
