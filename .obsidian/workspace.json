@@ -136,8 +136,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "c2ac20122d282e0d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
