@@ -7,5 +7,9 @@
 vscode 使用wsl   没有写入权限
 
 sudo chown -R mikeubuntu /xx/xxx 后面跟文件
+
+wsl -l -v   查看安装的wsl  状态信息
+
+wsl --shutdown    关闭所有的wsl
 ```
 

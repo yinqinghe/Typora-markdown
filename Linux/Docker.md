@@ -3,8 +3,7 @@
 可选     卸载旧版本Docker
 
 ```
-yum remove docker 
-            docker-client 
+yum remove docker docker-client 
             docker-client-latest 
             docker-common
             docker-latest 
@@ -90,6 +89,7 @@ systemctl start docker  #启动docker服务
 systemctl stop docker   #停止docker服务
 
 systemctl restart docker    #重启dockers服务
+systemctl enable docker   设置docker开机自启
 ```
 
 ## Docker的使用
@@ -103,6 +103,8 @@ docker exec                   进入容器执行命令
 docker logs                  查看容器运行命令
 docker ps                     查看容器的状态
 docker rm                        删除指定容器
+docker ps -a                     查看已创建的
+docker rmi                    删除指定镜像
 ```
 
 2.Redis容器实例
@@ -132,5 +134,27 @@ bash  进入容器后执行的命令
 --rm  当其关闭后将删除开启的资源  就是关闭时删除创建的容器  yi'ci
 docker ps -a      显示容器的id image命令  端口等信息
 docker exec -it  容器名称/容器ID /bin/bash   
+
+```
+
+4.搭建MySQL8
+
+```
+docker run -p 3306:3306 --name mysql1 --privileged=true --restart unless-stopped -v /mnt/sda1/mysql8.0.21/mysql:/etc/mysql -v /mnt/sda1/mysql8.0.21/logs:/logs -v /mnt/sda1/mysql8.0.21/data:/var/lib/mysql -v /etc/localtime:/etc/localtime -e MYSQL_ROOT_PASSWORD=root123456 -d mysql:8.0.21
+```
+
+
+
+
+
+```
+docker-compose  up -d   启动一个新的docker
+
+docker-compose  down   删除所有docker-compose创建的容器
+```
+
+```
+踩坑
+docker-compose的安装   需要GitHub下载安装   国内的不行
 ```
 

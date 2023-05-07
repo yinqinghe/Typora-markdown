@@ -34,3 +34,16 @@ chattr -i shell.php  解除锁定
 rm -rf shell.php     删除文件
 ```
 
+```
+cat /etc/os-release  查看Linux发行版
+```
+
+```
+配置当前终端使用
+export https_proxy=http://172.25.112.1:7890
+export http_proxy=http://172.25.112.1:7890
+
+curl cip.cc    用这个命令查看IP归属地  也可以检测命令执行时网络是否使用代理
+
+```
+

@@ -7,7 +7,7 @@
 一.  安装Tensorflow
 a.python --version     查看Python  版本
 b.conda create -n tensorflow python=3.7.6   创建python
-c.conda info --envs     查看环境变量
+c.conda info --envs     chrome /incognito  
 d.activate tensorflow   激活Tensor Flow
 
 ```
@@ -51,5 +51,17 @@ conda config --set show_channel_urls yes
 9.pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 一键安装环境配置reuirements.txt
 10.jupter notebook  启动jupyter
+```
+
+```
+windows/Linux下Anaconda更改默认python环境的方法
+更改anaconda安装目录下\anaconda3\Scripts\activate.bat文件,将第24行
+
+@CALL "%~dp0..\condabin\conda.bat" activate %*
+1
+更改为
+
+@CALL "%~dp0..\condabin\conda.bat" activate 环境名
+
 ```
 

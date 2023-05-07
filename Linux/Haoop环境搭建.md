@@ -25,7 +25,6 @@ source /etc/profile
   java --version
   ```
 
-  - [ ] 
 
 2.配置免密登录    Hadoop组件之间需要基于SSH进行通讯
 
