@@ -11,11 +11,10 @@
             "id": "a6bd2858abfccef4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Git.md",
-                "mode": "source",
-                "source": false
+                "file": "0/2023-02-13.md",
+                "staged": false
               }
             }
           }
@@ -103,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -122,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +135,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +167,9 @@
   },
   "active": "a6bd2858abfccef4",
   "lastOpenFiles": [
-    "Kali使用.md",
+    "0/2023-02-13.md",
     "Git.md",
+    "Kali使用.md",
     "Untitled.md",
     "CS.md",
     "Untitled.assets/uTools_1681104903925-16812644591682-16812644737494.png 1.md",
