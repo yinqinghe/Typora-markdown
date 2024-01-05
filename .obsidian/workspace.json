@@ -11,10 +11,11 @@
             "id": "a6bd2858abfccef4",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "0/2023-02-13.md",
-                "staged": false
+                "file": "Hacker/信息收集.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hacker/信息收集.md"
+              }
             }
           },
           {
@@ -119,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hacker/信息收集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hacker/信息收集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
